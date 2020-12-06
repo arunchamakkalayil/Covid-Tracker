@@ -2,6 +2,7 @@
 import React , {Component} from 'react';
 import Axios from 'axios';
 import {Card,Accordion,Button} from 'react-bootstrap';
+
 class Statedata extends Component{
 
     constructor(){
@@ -63,7 +64,7 @@ class Statedata extends Component{
                                 </Card.Header>
                                 <Accordion.Collapse eventKey={ky}>
                                   <Card.Body>
-                                      <table className="table table-bordered table-striped ">
+                                      <table className="table table-bordered table-striped " responsive="sm">
                                           <thead>
                                               <tr>
                                               <td>Districts</td>

@@ -6,6 +6,7 @@ import Axios from 'axios';
 
 
 
+
 class India extends Component {
 
     constructor() {
@@ -27,18 +28,18 @@ class India extends Component {
 
     return (
         <div className="row">
-            <div className="col-md-12 "> <br />
+            <div  className="col-md-12 "> <br />
 
                 <img src="   https://flagcdn.com/w80/in.png" />
-                <h3>INDIA</h3>
+                <h3 >INDIA</h3>
             </div>
-            <div className="col-md-12">
-                <div className="row ml-2">
+            <div style={{justifyContent:"center"}} className="col-md-12">
+                <div  className="row ml-2">
 
-                    <div className="col-md-3 col-sm-3">
+                    <div className="col-md-3 ">
 
 
-                        <Card className="badge badge-primary" style={{ width: '18rem' }}>
+                        <Card className="badge badge-primary" style={{ width: '15rem' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>TOTAL CASES</Card.Title>
@@ -53,10 +54,10 @@ class India extends Component {
 
 
                     </div>
-                    <div className="col-md-3 col-sm-3">
+                    <div className="col-md-3 ">
 
 
-                        <Card className="badge badge-success" style={{ width: '18rem' }}>
+                        <Card className="badge badge-success" style={{ width: '15rem' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>RECOVERED</Card.Title>
@@ -71,10 +72,10 @@ class India extends Component {
 
 
                     </div>
-                    <div className="col-md-3 col-sm-3">
+                    <div className="col-md-3 ">
 
 
-                        <Card className="badge badge-warning" style={{ width: '18rem' }}>
+                        <Card className="badge badge-warning" style={{ width: '15rem' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>ACTIVE CASES</Card.Title>
@@ -89,10 +90,10 @@ class India extends Component {
 
 
                     </div>
-                    <div className="col-md-3 col-sm-3">
+                    <div className="col-md-3 ">
 
 
-                        <Card className="badge badge-danger" style={{ width: '18rem' }}>
+                        <Card  className="badge badge-danger" style={{ width: '15rem' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>DEATHS</Card.Title>

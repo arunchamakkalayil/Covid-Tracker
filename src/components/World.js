@@ -21,6 +21,7 @@ class World extends Component{
         return(
             <div className="row">
                 <div className="col-md-12">
+                    <div className="table table-responsive-sm">
 
                     <table className="table table-primary table-bordered table-hover table-sm" >
                         <thead>
@@ -49,6 +50,7 @@ class World extends Component{
 
                         </tbody>
                     </table>
+                    </div>
                 </div>
               
             </div>

@@ -34,7 +34,7 @@ class India extends Component {
                 <h3 >INDIA</h3>
             </div>
             <div style={{justifyContent:"center"}} className="col-md-12">
-                <div  className="row ml-2"  style={{justifyContent:"center"}}>
+                <div  className="row ml-2 responsive"  style={{justifyContent:"center"}}>
 
                     <div className="col-md-3 ">
 
@@ -57,7 +57,7 @@ class India extends Component {
                     <div className="col-md-3 ">
 
 
-                        <Card className="badge badge-success" style={{ width: '15rem' }}>
+                        <Card className="badge badge-success" style={{ width: '15rem',marginTop:'4px' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>RECOVERED</Card.Title>
@@ -75,7 +75,7 @@ class India extends Component {
                     <div className="col-md-3 ">
 
 
-                        <Card className="badge badge-warning" style={{ width: '15rem' }}>
+                        <Card className="badge badge-warning" style={{ width: '15rem',marginTop:'4px' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>ACTIVE CASES</Card.Title>
@@ -93,7 +93,7 @@ class India extends Component {
                     <div className="col-md-3 ">
 
 
-                        <Card  className="badge badge-danger" style={{ width: '15rem' }}>
+                        <Card  className="badge badge-danger" style={{ width: '15rem',marginTop:'4px' }}>
 
                             <Card.Body className="text-center">
                                 <Card.Title>DEATHS</Card.Title>

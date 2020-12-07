@@ -64,18 +64,22 @@ class Statedata extends Component{
                                 </Card.Header>
                                 <Accordion.Collapse eventKey={ky}>
                                   <Card.Body>
-                                      <table className="table table-sm table-striped table-hover table-bordered">
+                                      <div className="table-responsive-sm w-auto">
+                                      <table className="table">
                                           <thead>
+                                      
                                               <tr>
-                                              <td>Districts</td>
-                                              <td>Confirmed</td>
-                                              <td>Active</td>
-                                              <td>Recovered</td>
-                                              <td>Deaths</td>
+                                              <td scope="col">Districts</td>
+                                              <td scope="col">Confirmed</td>
+                                              <td scope="col">Active</td>
+                                              <td scope="col">Recovered</td>
+                                              <td scope="col">Deaths</td>
 
                                               </tr>
+                                              </thead>
                                           
-                                          </thead>
+
+                                      
                                           <tbody>
                                               {
                                                   district_list.map((itm,ky)=>{
@@ -93,6 +97,7 @@ class Statedata extends Component{
 
                                           </tbody>
                                       </table>
+                                      </div>
                                   </Card.Body>
                                 </Accordion.Collapse>
                               </Card>

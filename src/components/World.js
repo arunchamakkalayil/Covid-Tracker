@@ -22,7 +22,7 @@ class World extends Component{
             <div className="row">
                 <div className="col-md-12">
 
-                    <table className="table table-primary table-bordered table-stripped" response="sm">
+                    <table className="table table-primary table-bordered table-hover table-sm" >
                         <thead>
                             <tr>
                                 <td>Country</td>

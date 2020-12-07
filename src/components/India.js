@@ -34,7 +34,7 @@ class India extends Component {
                 <h3 >INDIA</h3>
             </div>
             <div style={{justifyContent:"center"}} className="col-md-12">
-                <div  className="row ml-2">
+                <div  className="row ml-2"  style={{justifyContent:"center"}}>
 
                     <div className="col-md-3 ">
 

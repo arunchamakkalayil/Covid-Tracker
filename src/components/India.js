@@ -29,12 +29,14 @@ class India extends Component {
     return (
         <div className="row">
             <div  className="col-md-12 "> <br />
+            <div className="d-flex justify-content-center">
 
-                <img src="   https://flagcdn.com/w80/in.png" />
+                <img src="   https://flagcdn.com/w80/in.png" /></div><div className="d-flex justify-content-center">
                 <h3 >INDIA</h3>
+                </div>
             </div>
-            <div style={{justifyContent:"center"}} className="col-md-12">
-                <div  className="row ml-2 responsive"  style={{justifyContent:"center"}}>
+            <div style={{justifyContent:"around",}} className="col-md-12">
+                <div  className="row ml-5 responsive"  style={{justifyContent:"center"}}>
 
                     <div className="col-md-3 ">
 
@@ -100,7 +102,7 @@ class India extends Component {
                                 <h3>{this.state.data.deaths}</h3>
                                 <Card.Text>
                                    
-         </Card.Text>
+              </Card.Text>
 
                             </Card.Body>
                         </Card>

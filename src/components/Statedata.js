@@ -65,7 +65,7 @@ class Statedata extends Component{
                                 <Accordion.Collapse eventKey={ky}>
                                   <Card.Body>
                                       <div className="table-responsive-sm w-auto">
-                                      <table className="table">
+                                      <table className="table table-sm table-bordered">
                                           <thead>
                                       
                                               <tr>

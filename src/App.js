@@ -21,7 +21,7 @@ class App extends Component {
 
                 return (
 
-                 <div className="container-fluid">
+                 <div className="container">
                    <Router>
                      <Header/>
                      <Switch>

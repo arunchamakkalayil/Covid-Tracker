@@ -21,10 +21,11 @@ class App extends Component {
 
                 return (
 
-                 <div className="container">
+                 <div className="app-container">
                    <Router>
                      <Header/>
-                     <Switch>
+                   <div className="container">
+                  <Switch>
                        <Route exact path="/">
                          <India/>
                        </Route>
@@ -35,6 +36,7 @@ class App extends Component {
                          <World/>
                        </Route>
                      </Switch>
+                  </div>
                    </Router>
        
 
